@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link href="stylev.css" rel="stylesheet">
+</head>
+<body>
+    <div class="calculator">
+        <input class="input-field" id="ans"> 
+        <table class="btn-group">
+            <tr>
+                <td> <button class="btn btn-light" onclick="empty()">AC</button></td>
+                <td> <button class="btn btn-light" onclick="lClear()">C</button></td>
+                <td> <button class="btn btn-light" onclick="number('%')">%</button></td>
+                <td> <button class="btn btn-danger"  onclick="number('/')">/</button></td>
+            </tr>
+            <tr>
+                <td> <button class="btn btn-dark" onclick="number(7)">7</button></td>
+                <td> <button class="btn btn-dark" onclick="number(8)">8</button></td>
+                <td> <button class="btn btn-dark" onclick="number(9)">9</button></td>
+                <td> <button class="btn btn-danger"  onclick="number('*')">*</button></td>
+            </tr>
+            <tr>
+                <td> <button class="btn btn-dark"  onclick="number(4)">4</button></td>
+                <td> <button class="btn btn-dark"  onclick="number(5)">5</button></td>
+                <td> <button class="btn btn-dark"  onclick="number(6)">6</button></td>
+                <td> <button class="btn btn-danger" onclick="number('-')"> - </button></td>
+            </tr>
+            <tr>
+                <td> <button class="btn btn-dark"  onclick="number(1)">1</button></td>
+                <td> <button class="btn btn-dark"  onclick="number(2)">2</button></td>
+                <td> <button class="btn btn-dark"  onclick="number(3)">3</button></td>
+                <td> <button class="btn btn-danger"  onclick="number('+')">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"> <button class="btn btn-dark"  onclick="number(0)">0</button></td>
+                <td> <button class="btn btn-dark"  onclick="number('.')">.</button></td>
+                <td> <button class="btn btn-danger" onclick="answer()">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="scriptv.js"></script>
+</body>
+</html>

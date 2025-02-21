@@ -1,0 +1,41 @@
+.calculator{
+    background-color: cyan;
+    height: 97vh ;
+    width: 60 vw;
+    margin: 2vh 30vw 2vh 30vw ;
+}
+.input-field{
+    width: 96%;
+    height: 20%;
+    margin: 2% 2% 2% 2%  ;
+    background-color: black;
+    border:  none;
+    color: white;
+    font-size: 65px;
+    
+
+}
+.btn-group{
+    width: 100%;
+    height: 70%;
+}
+
+.btn{
+    width: 100%;
+    height: 79%;
+    font-size: 30px;
+    border-radius: 50px;
+}
+.btn-light{
+    background-color: violet;
+    color: yellow;
+}
+.btn-danger{
+    background-color: red;
+    color: darkblue;
+}
+
+.btn-dark{
+    background-color: greenyellow;
+    color: brown;
+}
